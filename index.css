@@ -1,0 +1,106 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration-thickness: 2px;
+}
+
+.section {
+    width: 100%;
+}
+
+#intro {
+    height: 90%;
+    background: linear-gradient(45deg, #4A00E0, #8E2DE2);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#intro h2 {
+    font-weight: 600;
+    margin: 0;
+}
+
+#intro h1 {
+    font-weight: 700;
+    font-size: 45pt;
+    margin: 0;
+}
+
+#intro a {
+    color: #ffffff;
+}
+
+#icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.app {
+    display: flex;
+}
+
+.apphalf {
+    flex-basis: 0;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.apphalf * {
+    margin: 0;
+}
+
+.apphalf h1 a {
+    text-decoration: none;
+}
+
+.apphalf h3 {
+    font-weight: 600;
+}
+
+.apphalf img {
+    box-shadow: 0px 0px 10px #888888;
+    width: 100%;
+    border-radius: 15px;
+}
+
+#socials {
+    background: linear-gradient(45deg, #1D976C, #93F9B9);
+    padding: 25px;
+    color: #ffffff;
+}
+
+#footer {
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 10pt;
+}
+
+@media only screen and (max-width: 768px) {
+    .app {
+        flex-direction: column;
+    }
+    .texthalf {
+        order: 2;
+    }
+    .apphalf {
+        padding-bottom: 0;
+    }
+}
